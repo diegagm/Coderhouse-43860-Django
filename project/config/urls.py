@@ -20,9 +20,12 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('saludar/', views.saludo),
-    path('otra_vista/', views.saludo_vista),
-    path('nombre/<nombre>/<apellido>', views.nombre),
+    path("admin/", admin.site.urls),
+    path("saludar/", views.saludo),
+    path("otra_vista/", views.saludo_vista),
+    path("nombre/<nombre>/<apellido>", views.nombre),
     path("probando_template/", views.probando_template),
+    path("fecha_hora/", views.fecha_hora),
+    path("mis_notas/", views.mis_notas),
+    path("diccionario/", views.diccionario),
 ]
