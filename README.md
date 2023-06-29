@@ -6,7 +6,7 @@ Si ya lo tenías clonado, viendo que existe en tu PC la rama "clase_17", entonce
 
 De lo contrario, en una carpeta nueva, vacía, ejecuta en la terminal el siguiente comando:
 
-**`git clone https://github.com/esthorace/Coderhouse_40445.git`**
+**`git clone https://github.com/esthorace/Coderhouse_43860-Django.git`**
 
 Para ver este archivo en VScode con mayor legibilidad, presionar `control + shift + v`
 
