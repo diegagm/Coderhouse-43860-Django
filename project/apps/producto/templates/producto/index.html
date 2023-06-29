@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+{% extends 'Home/base.html' %}    
+
+{% block TITULO %}
+
+    {{ app }}
+
+    <a href="{% url 'Home:home' %}">Ir al menú principal</a>
     
-    <h1>Bienvenido a mi proyecto de Django</h1>
-    <h2>{{ app }} </h2>
-</body>
-</html>
+{% endblock TITULO %}
