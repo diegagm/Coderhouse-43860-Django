@@ -1,8 +1,8 @@
 # Copiar este repositorio de la siguiente manera:
 
-Si ya lo tenías clonado, viendo que existe en tu PC la rama "clase_18", entonces ejecuta el siguiente comando en la terminal, en tu proyecto. Dejará tu rama "clase_18" sin modificar, y creará la rama "clase_19":
+Si ya lo tenías clonado, viendo que existe en tu PC la rama "clase_19", entonces ejecuta el siguiente comando en la terminal, en tu proyecto. Dejará tu rama "clase_19" sin modificar, y creará la rama "clase_20":
 
-**`git pull origin clase_19`**
+**`git pull origin clase_20`**
 
 De lo contrario, en una carpeta nueva, vacía, ejecuta en la terminal el siguiente comando:
 
@@ -12,7 +12,7 @@ Para ver este archivo en VScode con mayor legibilidad, presionar `control + shif
 
 - Extensiones sugeridas para trabajar con Django:
 
-    1. **Black Formatter** (sirve para auto formatear el código Python)
+    1. **Autopep8** (sirve para auto formatear el código Python)
     2. **Isort** (sirve para auto ordenar importaciones en Python)
     3. **Git Graph** (ayuda para cualquier proyecto Git)
     4. **Django Support** (color de sintaxis y autocompletado para Django)
@@ -66,10 +66,6 @@ Además, he agregado una carpeta llamada `.vscode` que tiene un archivo llamado 
 
 `python manage.py createsuperuser`
 > Crea un usuario administrador para acceder a 127.0.0.1:8000/admin
-
-## Nota sobre Git
-
-Recuerda cambiar de rama a **clase_17** y ver el `README.md` para ver el flujo de trabajo con Git.
 
 ## Requirements.txt
 
