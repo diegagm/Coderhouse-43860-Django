@@ -1,9 +1,14 @@
 {% extends 'Home/index.html' %}
 
 {% block INDEX_TITULO %} 
-    {{ app }} 
+    Categorías de Productos
 {% endblock INDEX_TITULO %}
 
 {% block INDEX_CONTENIDO %}
+    
+    <a href="{% url 'producto:productocategoria_create' %}">Crear Categorías de Productos</a>
+    <br>
+    <a href="{% url 'producto:productocategoria_list' %}">Listar Categorías de Productos</a>
+    <br>
     <a href="{% url 'Home:home' %}">Ir al menú principal</a>
 {% endblock INDEX_CONTENIDO %}
