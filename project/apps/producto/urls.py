@@ -7,7 +7,8 @@ app_name = "producto"
 
 
 urlpatterns = [
-    path("", TemplateView.as_view(template_name="producto/index.html"), name="home"),
+    path("", views.index, name="home"),
+    #     path("", TemplateView.as_view(template_name="producto/index.html"), name="home"),
     #     path("productocategoria/list/", views.productocategoria_list,
     #          name="productocategoria_list"),
     path("productocategoria/list/", views.ProductoCategoriaList.as_view(),

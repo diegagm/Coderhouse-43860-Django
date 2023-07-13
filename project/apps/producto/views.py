@@ -1,3 +1,7 @@
+from django.contrib.auth.decorators import login_required
+
+#! importaciones para login
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import redirect, render
 from django.urls import reverse_lazy
@@ -14,8 +18,9 @@ from . import forms, models
 # PAGINA PRINCIPAL
 
 
-# def index(request):
-#     return render(request, "producto/index.html")
+@login_required
+def index(request):
+    return render(request, "producto/index.html")
 
 
 # list
