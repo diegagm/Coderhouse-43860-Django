@@ -137,4 +137,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_URL = reverse_lazy("Home:login")
-# LOGIN_REDIRECT_URL = reverse_lazy("Home:index")  #! esto es necesario cuando views no redirecciona a otra url
+# ! esto es necesario cuando views no redirecciona a otra url
+LOGIN_REDIRECT_URL = reverse_lazy("Home:index")
